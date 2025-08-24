@@ -77,7 +77,7 @@ Links open Colab notebooks. You may also clone [this repository](https://github.
 ## Teachers
 
  * Côme Fiegel (ENSAE)
- * [Hugo Richard](https://hugorichard.github.io/) (Criteo)
+ * Ahmed Ben Yahmed (Criteo & ENSAE)
  * [Dario Colazzo](https://www.lamsade.dauphine.fr/~colazzo/) (Dauphine Université)
  
 ## Acknowledgements
