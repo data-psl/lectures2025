@@ -53,8 +53,8 @@ Check for updates with the teachers on the first day. You are required to bring 
 
 Links open Colab notebooks. You may also clone [this repository](https://github.com/data-psl/lectures2025) and work locally.
 
- 1. Wednesday: [Python basics](https://colab.research.google.com/github/data-psl/lectures2025/blob/master/notebooks/01_python_basics.ipynb) and the [Corrected notebook](https://colab.research.google.com/github/data-psl/lectures2025/blob/master/notebooks/01_python_basics_corrected.ipynb)
- 2. Thursday: Practice of Scikit-learn 
+ 1. Monday: [Python basics](https://colab.research.google.com/github/data-psl/lectures2025/blob/master/notebooks/01_python_basics.ipynb) and the [Corrected notebook](https://colab.research.google.com/github/data-psl/lectures2025/blob/master/notebooks/01_python_basics_corrected.ipynb)
+ 2. Tuesday: Practice of Scikit-learn 
 
  - [Preliminaries](https://colab.research.google.com/github/data-psl/lectures2025/blob/main/notebooks/02_sklearn/01-Preliminaries.ipynb)
  - [intro](https://colab.research.google.com/github/data-psl/lectures2025/blob/main/notebooks/02_sklearn/02.1-Machine-Learning-Intro.ipynb) [(corrected)](https://colab.research.google.com/github/data-psl/lectures2025/blob/main/notebooks/02_sklearn/02.1-Machine-Learning-Intro_corrected.ipynb)
@@ -67,8 +67,8 @@ Links open Colab notebooks. You may also clone [this repository](https://github.
  - [Validation](https://colab.research.google.com/github/data-psl/lectures2025/blob/main/notebooks/02_sklearn/05-Validation.ipynb)  [(corrected)](https://colab.research.google.com/github/data-psl/lectures2025/blob/main/notebooks/02_sklearn/05-Validation_corrected.ipynb)
  - [Pipeline](https://colab.research.google.com/github/data-psl/lectures2025/blob/main/notebooks/02_sklearn/06-Pipeline.ipynb) 
 
- 3. Friday: [Optimization](https://colab.research.google.com/github/data-psl/lectures2025/blob/master/notebooks/03_optimization.ipynb) and the [Corrected notebook](https://colab.research.google.com/github/data-psl/lectures2025/blob/master/notebooks/03_optimization_corrected.ipynb)
- 4. Monday: Classification with PyTorch and GPUs
+ 3.  Wednesday: [Optimization](https://colab.research.google.com/github/data-psl/lectures2025/blob/master/notebooks/03_optimization.ipynb) and the [Corrected notebook](https://colab.research.google.com/github/data-psl/lectures2025/blob/master/notebooks/03_optimization_corrected.ipynb)
+ 4. Thursday : Classification with PyTorch and GPUs
 
  - [Notebook 1](https://colab.research.google.com/github/data-psl/lectures2025/blob/main/notebooks/04_pytorch/01_introduction_to_pytorch.ipynb)
  - [Notebook 2](https://colab.research.google.com/github/data-psl/lectures2025/blob/main/notebooks/04_pytorch/02_simple_neural_network.ipynb)  [Corrected notebook](https://colab.research.google.com/github/data-psl/lectures2025/blob/main/notebooks/04_pytorch/02_simple_neural_network_corrected.ipynb)
