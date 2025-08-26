@@ -268,26 +268,7 @@ X_t = pca.transform(X)
 ```
 
 ---
-# Feature selection
 
-- Perform a $\chi^2$ test to the samples to retrieve only the two best features
-
-```python
->>> from sklearn.datasets import load_iris
->>> from sklearn.feature_selection import SelectKBest
->>> from sklearn.feature_selection import chi2
-
->>> X, y = load_iris(return_X_y=True)
->>> X.shape
-(150, 4)
-
->>> fs = SelectKBest(chi2, k=2)
->>> X_new = fs.fit_transform(X, y)
->>> X_new.shape
-(150, 2)
-```
-
----
 class: center, middle
 
 # Defining, fitting, using and evaluating estimators
@@ -415,23 +396,7 @@ plot_confusion_matrix(estimator, X_test, y_test)
 ]
 
 ---
-# Pipelines
 
-- A way to chain multiple transformations with a final estimator
-
-```python
-from sklearn.pipeline import Pipeline
-from sklearn.svm import SVC
-from sklearn.decomposition import PCA
-
-estimators = [('reduce_dim', PCA()), ('clf', SVC())]
-
-pipe = Pipeline(estimators)
-pipe.fit(X_train, y_train)
-y_pred = pipe.predict(X_test)
-```
-
----
 # Hyperparameter selection
 
 - `scikit-learn` provides meta-estimators for hyperparameter selection
