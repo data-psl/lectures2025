@@ -228,34 +228,6 @@ array([[0., 1., 1., 0., 0.],
        [1., 0., 0., 1., 0.]])
 ```
 ---
-# Bag-of-word representations
-
-
-```python
->>> from sklearn.feature_extraction.text import CountVectorizer
-
->>> vectorizer = CountVectorizer()
-
->>> corpus = [
-    'This is the first document.',
-    'This is the second second document.',
-    'And the third one.',
-    'Is this the first document?',
-]
-
->>> X = vectorizer.fit_transform(corpus)
-
->>> X.toarray()
-array([[0, 1, 1, 1, 0, 0, 1, 0, 1],
-       [0, 1, 0, 1, 0, 2, 1, 0, 1],
-       [1, 0, 0, 0, 1, 0, 1, 1, 0],
-       [0, 1, 1, 1, 0, 0, 1, 0, 1]]...)
-
->>> vectorizer.transform(['Something completely new.']).toarray()
-array([[0, 0, 0, 0, 0, 0, 0, 0, 0]]...)
-```
-
----
 # Useful preprocessing
 
 - Scale the columns: `$x_{i, j} = \frac{x_{i, j} - \text{Mean}(x_{:,j})}{\sqrt{\text{Var}(x_{:,j})}}$`
