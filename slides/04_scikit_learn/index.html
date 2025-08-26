@@ -181,21 +181,6 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4)
 ```
 
-- Other utilities to do it repeatedly: `KFoldSplit`, `ShuffleSplit`
-
-```python
-X = np.array([[1, 2], [3, 4], [1, 2], [3, 4]])
-y = np.array([1, 2, 3, 4])
-
-# 5-fold cross-validation
-kf = KFold(n_splits=5)
-
-for train_index, test_index in kf.split(X):
-  X_train, X_test = X[train_index], X[test_index]
-  y_train, y_test = y[train_index], y[test_index]
-```
-
-- Stratified K-fold (preserves the percentage of samples for each class)
 ---
 # Loading from dictionaries
 
