@@ -18,16 +18,16 @@ Check for updates with the teachers on the first day. You are required to bring 
 **Day 2** (Tuesday August 26, 2025):
 * 9:00--10:30: (course) Machine learning models (linear, trees, neural networks).
 * 11:00-12:30: (course) Scikit-learn: estimation/prediction/transformation.
-* 14:00-17:00: (lab session) Practice of Scikit-learn.
+* 14:00-17:30: (lab session) Practice of Scikit-learn.
 
 **Day 3** (Wednesday August 27, 2025):
 * 9:00-12:30: (course) The linear model, optimization
-* 14:00-17:00: (lab session) Logistic regression with gradient descent.
+* 14:00-17:30: (lab session) Logistic regression with gradient descent.
 
 **Day 4** (Thursday August 28, 2025):
 * 9:00-10:30: (course) Introduction to Deep-Learning
 * 11:00-12:30: (course) Introduction to unsupervised learning
-* 14:00-17:00 (lab session) Practical session
+* 14:00-17:30 (lab session) Practical session
 
 **Day 5** (Friday August 29, 2025):
 * Dario Colazzo  (course/lab session) Spark for ML, part 1 and 2
